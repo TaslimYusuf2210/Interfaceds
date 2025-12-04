@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+#root {
+  background-color: black;
+  color: white;
+}
+
+.nav-element-animate {
+  transition: background-color 0.7s ease;
+}
+
+.nav-element-animate:hover::after {
+  transform: translateY(0) scaleX(1);
+  opacity: 1;
+}
+
+.nav-element-animate:hover::after {
+  animation: nav-drop 300ms cubic-bezier(.2,.9,.3,1) forwards;
+}
+
+@keyframes nav-drop {
+  0%   { transform: translateY(-8px) scaleX(0); opacity: 0; }
+  70%  { transform: translateY(2px)  scaleX(1.02); opacity: 1; }
+  100% { transform: translateY(0)   scaleX(1); opacity: 1; }
+}
+
+.hero-animation{
+  transform: perspective(1000px) rotateX(5deg);
+  transform-origin: top;
+  transition: all 1s ease-in;
+}
+
+.hero-animation.visible {
+  transform: none;
+  transform: scale(0.9);
+}
+
+.interface-animation {
+  transition: all 0.6s ease;
+}
+
+.interface-animation:hover {
+  transform: translateY(-20px) scale(1.2);
+}
+
+/* .dropdown-menu {
+  transform-origin: top;
+  transform: scaleY(0);
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition:
+    transform 250ms cubic-bezier(0.25, 0.9, 0.3, 1.2),
+    opacity 180ms ease,
+    height 250ms cubic-bezier(0.25, 0.9, 0.3, 1.2);
+}
+
+.dropdown-menu.open {
+  transform: scaleY(1);
+  opacity: 1;
+  height: auto; /* lets it expand naturally */
+/* } */ 
+
+/* .navlist {
+  @apply hover:border-b-3 cursor-pointer hover:pb-1
+} */
+
+@theme {
+  --color-brand: #a1a1a1; /* custom gray */
+  --color-accent: #262626;
+  --font-lexend: "Lexend", sans-serif;
+  --font-geistmono: "Geist Mono", monospace;
+}
