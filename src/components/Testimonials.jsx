@@ -19,11 +19,11 @@ function Testimonials() {
             <div className="grid md:grid-cols-2 gap-12">
                 <div className="border-accent rounded-xl px-6 border">
                     <div className="flex gap-2 py-6">
-                        <FaStar  className="animate-pulse delay-200 md:text-2xl text-xl text-white"/>
-                        <FaStar  className="animate-pulse delay-400 md:text-2xl text-xl text-white"/>
-                        <FaStar  className="animate-pulse delay-100 md:text-2xl text-xl text-white"/>
-                        <FaStar  className="animate-pulse delay-800 md:text-2xl text-xl text-white"/>
-                        <FaStar  className="animate-pulse delay-1000 md:text-2xl text-xl text-white"/>
+                        <FaStar  className="md:text-2xl text-xl text-white"/>
+                        <FaStar  className=" md:text-2xl text-xl text-white"/>
+                        <FaStar  className=" md:text-2xl text-xl text-white"/>
+                        <FaStar  className="md:text-2xl text-xl text-white"/>
+                        <FaStar  className=" md:text-2xl text-xl text-white"/>
                     </div>
                     <div className="border-y py-6 border-accent">
                         <div className="flex gap-4">
@@ -40,18 +40,18 @@ function Testimonials() {
                         Its simple, functional, elegant and most importantly versatile. <br className="lg:block hidden"/>
                         <br className="lg:block hidden"/>
                         I'm currently using some of the components as the basis of <br className="lg:block hidden"/>
-                        redesigning my startup, <span className="text-white animate-bounce">@Toolfolio</span> — It goes without saying that I <br className="lg:block hidden"/>
+                        redesigning my startup, <span className="text-white">@Toolfolio</span> — It goes without saying that I <br className="lg:block hidden"/>
                         recommend this Design System."
                     </div>
                     
                 </div>
                 <div className="border-accent rounded-xl px-6 border">
                     <div className="flex gap-2 py-6">
-                        <FaStar  className="animate-pulse delay-200 md:text-2xl text-xl text-white"/>
-                        <FaStar  className="animate-pulse delay-400 md:text-2xl text-xl text-white"/>
-                        <FaStar  className="animate-pulse delay-100 md:text-2xl text-xl text-white"/>
-                        <FaStar  className="animate-pulse delay-600 md:text-2xl text-xl text-white"/>
-                        <FaStar  className="animate-pulse delay-800 md:text-2xl text-xl text-white"/>
+                        <FaStar  className=" md:text-2xl text-xl text-white"/>
+                        <FaStar  className="md:text-2xl text-xl text-white"/>
+                        <FaStar  className=" md:text-2xl text-xl text-white"/>
+                        <FaStar  className=" md:text-2xl text-xl text-white"/>
+                        <FaStar  className=" md:text-2xl text-xl text-white"/>
                     </div>
                     <div className="border-y py-6 border-accent">
                         <div className="flex gap-4">

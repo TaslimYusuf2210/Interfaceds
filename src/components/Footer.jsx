@@ -1,4 +1,6 @@
 import { SiCssdesignawards } from "react-icons/si";
+import { NavLink } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 function Footer() {
   return (
@@ -23,7 +25,7 @@ function Footer() {
                 placeholder="Your Email Address"
                 type="text"
               />
-              <button className="text-black animate-pulse hover:animate-none hover:cursor-pointer bg-white rounded-md py-3 px-4 font-medium hover:bg-blue-50 text-sm">
+              <button className="text-black hover:cursor-pointer bg-white rounded-md py-3 px-4 font-medium hover:bg-blue-50 text-sm">
                 Subscribe
               </button>
             </div>
@@ -36,12 +38,12 @@ function Footer() {
         <div className="font-medium grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-3 lg:gap-24 w-full lg:pl-36">
           <div className="flex flex-col gap-8 justify-start">
             <header className="text-brand ">Quick Link</header>
-            <p>Home</p>
-            <p>Pricings</p>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/pricing">Pricings</NavLink>
           </div>
           <div className="flex flex-col gap-8 justify-start">
             <header className="text-brand ">Support</header>
-            <p>Contact</p>
+            <Link smooth to="/#connect">Contact</Link>
           </div>
           <div className="flex flex-col gap-8 justify-start w-full">
             <header className="text-brand ">Social Media</header>

@@ -45,7 +45,7 @@ function Connect() {
             "Thank you for your interest in the Interfaces Design System. I'm dedicated to creating elegant, <br className="lg:block hidden"/>
             functional design solutions that elevate your projects and streamline your workflow."
         </p>
-        <div onClick={handleCopy} className="animate-pulse hover:animate-none hover:scale-[1.1] cursor-pointer px-3 py-2 text-sm font-medium border border-accent w-fit">
+        <div onClick={handleCopy} className=" hover:animate-none hover:scale-[1.1] cursor-pointer px-3 py-2 text-sm font-medium border border-accent w-fit">
           {copyState ?
           <div className="flex gap-2">
             <span>Copied</span>
