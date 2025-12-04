@@ -1,6 +1,7 @@
 import { SiCssdesignawards } from "react-icons/si";
 import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+import logo from "../assets/logo.svg"
 
 function Footer() {
   return (
@@ -9,7 +10,7 @@ function Footer() {
         <div className="w-full space-y-10 pr-0 lg:pr-32">
           <div className="flex items-center gap-2">
             <span className="text-4xl">
-              <SiCssdesignawards />
+              <img src={logo} alt="" />
             </span>
             <span className="font-bold text-xl">Interfaces DS</span>
           </div>

@@ -4,6 +4,7 @@ import Menu from "./menu";
 import Close from "./Close";
 import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import logo from "../assets/logo.svg"
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
@@ -16,7 +17,7 @@ function Navbar() {
         <nav className="bg-black flex justify-between px-4 pt-2 pb-2 border-b-accent border-b fixed w-full z-9999 max-w-[1536px]">
             <NavLink to="/" className="cursor-pointer flex items-center gap-2 z-50">
                 <span className="text-4xl">
-                    <SiCssdesignawards />
+                    <img src={logo} alt="" />
                 </span>
                 <span className="font-bold text-xl">
                     Interfaces DS
