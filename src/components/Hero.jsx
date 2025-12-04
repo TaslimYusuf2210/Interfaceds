@@ -1,6 +1,7 @@
 import heroImage from "../assets/image.png"
 import Interface from "./Interfaces";
 import { useRef, useEffect, useState } from "react"
+import { NavLink } from "react-router-dom";
 
 function Hero() {
     const ref = useRef(null);
@@ -37,8 +38,8 @@ function Hero() {
                     Ideal for Web and SaaS Apps.</p>
                 </div>
                 <div className="flex gap-4">
-                    <button className="cursor-pointer text-black font-medium bg-white rounded-md py-3 px-4 hover:bg-blue-50">Get it now</button>
-                    <button className="cursor-pointer border font-medium border-accent px-6 py-3 rounded-md hover:bg-accent">Preview</button>
+                    <NavLink to="/pricing" className="cursor-pointer text-black font-medium bg-white rounded-md py-3 px-4 hover:bg-blue-50">Get it now</NavLink>
+                    <NavLink to="/preview" className="cursor-pointer border font-medium border-accent px-6 py-3 rounded-md hover:bg-accent">Preview</NavLink>
                 </div>
             </div>
             
