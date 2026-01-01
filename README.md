@@ -1,12 +1,49 @@
-# React + Vite
+# Interfaces DS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Hero Preview](screenshots/hero.png) 
 
-Currently, two official plugins are available:
+A conceptual landing page for **Interfaces Design System (v0.1)** – a minimalist UI design system imagined for building beautiful, efficient web and SaaS interfaces without unnecessary complexity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Note:** This is a **fictional product concept**. The landing page serves as a portfolio project to demonstrate marketing site design, UI storytelling, and front-end craftsmanship. The actual design system product does not exist – it's purely an idea showcased through this site!
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Interfaces DS promotes a "less is more" philosophy with clean grids, modular components, and seamless design-to-code potential. The page includes:
+
+- **Hero Section**: Bold messaging on building elegant interfaces quickly.
+- **Dashboard Preview**: Mockup of a dark-mode admin dashboard with charts, metrics, and sidebar navigation.
+- **Features**: Sections on minimalist modular design, workflow efficiency, customization, and flexibility.
+- **Testimonials**: Placeholder reviews (with one fun fake quote).
+- **Pricing Plans**: Three tiers – Team ($299), Pro ($129, marked popular), Enterprise ($599).
+- **Contact & Footer**: Creator bio (Joshua Guo-inspired), newsletter signup, and quick links.
+- **Articles Teaser**: Blog-style page with a sample post on the design system journey.
+
+Deployed at: https://interfaceds.netlify.app (concept only – some sections like Articles may be minimal or placeholder).
+
+## Tech Stack
+
+- HTML5 / CSS3 (with utility-first styling using Tailwind CSS and custom classes)
+- JavaScript (React for interactivity)
+- Hosted on Netlify for fast deployment
+
+## Purpose & Learnings
+
+This project was created to:
+- Practice product landing page design and copywriting.
+- Explore dark-mode aesthetics and data visualization mockups.
+- Build a cohesive brand identity for a hypothetical premium tool.
+
+It highlights skills in responsive design, user persuasion, and creating hype around an idea.
+
+## Screenshots
+
+![Dashboard Preview](screenshots/dashboard.png)
+![Pricing Section](screenshots/pricing.png)
+![Contact Section](screenshots/contact.png)
+
+## Setup (If Cloning)
+
+```bash
+git clone https://github.com/TaslimYusuf2210/Interfaceds.git
+cd interfaces-ds-landing
+# Open index.html in browser or deploy to Vercel/Netlify
